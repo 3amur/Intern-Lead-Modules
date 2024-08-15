@@ -1,0 +1,180 @@
+
+
+.dt-bootstrap5 .row .col-md-auto.me-auto .dt-buttons .dropdown-menu a:nth-child(1){
+  display: none !important;
+}
+
+.dt-bootstrap5 .row .col-md-auto.me-auto .dt-buttons .btn-group:nth-child(1) .dropdown-menu a:nth-child(1){
+
+    display: block !important;
+  }
+/* staff management page  drag and drop*/
+.staff-management .list-item {
+    padding: 30px;
+  }
+  .pull-elements{
+    cursor:  grabbing;
+  }
+
+  .staff-management .sortContainer {
+    padding: .7rem;
+    margin-bottom: .7rem;
+  }
+  .staff-management .item-content {
+    padding: 0 .7rem .7rem .7rem;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+    border: 0px solid rgba(123, 123, 123, 0.498039);
+    border-radius: 4px;
+    color: rgb(153, 153, 153);
+    text-align: center;
+    padding-left: 32px;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .staff-management  .order {
+    margin-right: .7rem;
+    font-weight: bold;
+  }
+
+    .chosen-element {
+      color: #fff;
+      box-shadow: rgba(224, 224, 224, 0.2) 0px 1px 2px 0px;
+      border-color: #e9ecf2;
+      border: 1px dotted #ddd;
+    }
+
+
+  /* data table user access page*/
+
+  .dt-bootstrap5  .dt-buttons.btn-group.flex-wrap{
+    margin: 10px 0;
+  }
+  .dt-bootstrap5 .select-info{
+    display: none !important;
+  }
+
+  /*  first button group  */
+  @media (max-width : 1271px) {
+    .dt-bootstrap5 .row:nth-child(1) .col-md-auto:nth-child(2) {
+      margin: 0 auto 0 0 !important;
+    }
+    .navbar-vertical-collapsed .dt-bootstrap5 .row:nth-child(1) .col-md-auto:nth-child(2) {
+      margin: 0 0 0 0 !important;
+    }
+ }
+  @media (max-width : 1071px) {
+    .navbar-vertical-collapsed .dt-bootstrap5 .row:nth-child(1) .col-md-auto:nth-child(2) {
+       margin: 0 auto 0 0 !important;
+     }
+  }
+ /* End first button group */
+
+ /* Start search & show */
+ /* @media (max-width : 1071px) {
+    .col-md-auto:nth-child(2) {
+     margin: 0 auto 0 0 !important;
+   }
+} */
+@media(max-width: 760px){
+ .dt-bootstrap5 .row:nth-child(2) .col-md-auto {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    /* background-color: black !important; */
+}
+}
+@media(max-width: 490px){
+ .dt-bootstrap5 .row:nth-child(2) .col-md-auto.ms-auto .dt-search {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: fit-content !important;
+    margin-left: 0px  !important ;
+    margin-right: auto !important ;
+    margin-top: 1rem;
+}
+ .dt-bootstrap5 .row:nth-child(2) .col-md-auto.ms-auto  {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 100% !important;
+    margin-left: 0px  !important ;
+    margin-right: auto !important ;
+
+}
+ .dt-bootstrap5 .row:nth-child(2) .col-md-auto.me-auto .dt-length {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 100% !important;
+    margin-left: 0px !important ;
+    margin-right: auto !important ;
+
+}
+}
+ /* End search & show */
+
+ /* table styles */
+ table.dataTable thead > tr > th.dt-ordering-asc:first-child span.dt-column-order:before{
+    display: none;
+ }
+ table.dataTable > tbody > tr.child ul.dtr-details{
+  width: 100%;
+ }
+
+ table.dataTable > tbody > tr.child ul.dtr-details > li:last-child {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  10px 15px 0 0 ;
+ }
+
+ .text-head.filters th:not(:last-child) {
+    padding-right: 7px !important;
+ }
+
+/*End table styles */
+
+
+  /* modules setting  */
+
+  .module-setting .dataTables_info,.module-setting .dataTables_length{
+  display: none !important;
+  }
+
+
+
+  /* .text-head.filters input{
+    width: 100% !important;
+  } */
+  .dropdown-menu.dt-button-collection.dtb-b2{
+    margin-top: .6rem;
+  }
+
+  .dt-bootstrap5 .row .col-md-auto.ms-auto .dt-buttons .btn-group:nth-child(2) .dropdown-menu:hover .dt-button.dropdown-item {
+    background-color: transparent !important;
+  }
+  .dt-bootstrap5 .row .col-md-auto.ms-auto .dt-buttons .btn-group:nth-child(2) .dropdown-menu .dt-button.dropdown-item span input[type="checkbox"]{
+   z-index: -1;
+   position: relative;
+   /* margin-top: 5px; */
+
+}
+  .dt-bootstrap5 .row .col-md-auto .dt-buttons  .dropdown-menu{
+    margin-top: .5rem;
+
+  }
+  .dt-bootstrap5 .row .col-md-auto.ms-auto .dt-buttons .btn-group:nth-child(2) .dropdown-menu {
+    margin-left: -2.8rem;
+    margin-top: .5rem;
+}
+
+
+.btn.btn-secondary.disabled{
+  background-color:  var(--phoenix-gray-700) !important;
+}

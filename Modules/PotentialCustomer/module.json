@@ -1,0 +1,11 @@
+{
+    "name": "PotentialCustomer",
+    "alias": "potentialcustomer",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PotentialCustomer\\app\\Providers\\PotentialCustomerServiceProvider"
+    ],
+    "files": []
+}

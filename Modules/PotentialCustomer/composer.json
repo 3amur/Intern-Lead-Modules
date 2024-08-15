@@ -1,0 +1,48 @@
+{
+    "name": "nwidart/potentialcustomer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.2",
+        "laravel/framework": "^10.10",
+        "laravel/sanctum": "^3.3",
+        "laravel/telescope": "^4.17",
+        "laravel/tinker": "^2.8",
+        "maatwebsite/excel": "^3.1",
+        "nwidart/laravel-modules": "^10.0",
+        "yajra/laravel-datatables": "^10.0",
+        "realrashid/sweet-alert": "^7.1",
+        "spatie/laravel-permission": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PotentialCustomer\\": "",
+            "Modules\\PotentialCustomer\\app\\": "app/",
+            "Modules\\PotentialCustomer\\database\\factories\\": "database/factories/",
+            "Modules\\PotentialCustomer\\database\\seeders\\": "database/seeders/"
+        },
+        "files": [
+            "Modules/PotentialCustomer/app/Helpers/Helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PotentialCustomer\\Tests\\": "tests/"
+        }
+    }
+}
